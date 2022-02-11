@@ -124,7 +124,7 @@ MEDIA_DIR = os.path.join(BASE_DIR,'media')
 if not DEBUG:
     STATIC_URL = '/static/'
     #STATICFILES_DIRS = [STATIC_DIR,"/var/www/static"]
-    STATIC_ROOT = os.path.join(BASE_DIR,"static")
+    #STATIC_ROOT = os.path.join(BASE_DIR,"static")
     MEDIA_ROOT = MEDIA_DIR
     MEDIA_URL = '/media/'
 
